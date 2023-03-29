@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+}
+
+.titulo-destaque {
+    color: #7AA874;
+}
+
+.apresentacao__foto {
+    width: 400px;
+    border-radius: 100px;
+}
+
+.apresentacao {
+    font-family: 'Courier Prime', monospace;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    width: 400px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 26px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 14px;
+}
+
+.apresentacao__links {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.apresentacao__links_subtitulo{
+    font-weight: 400;
+}
+
+.apresentacao__icones {
+    width: 15px;
+}
+
+.apresentacao__links__link {
+    border: 3px solid #7AA874;
+    color: #f6f6f6;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 180px;
+    padding: 15px 0;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #1e281c;
+}
+
+.rodape {
+    font-family: 'Courier Prime', monospace;
+    background-color: #7AA874;
+    color: #f6f6f6;
+    padding: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    gap: 25px;
+}
+
+.creditos__link {
+    text-decoration: none;
+    color: #3c5138;
+}
