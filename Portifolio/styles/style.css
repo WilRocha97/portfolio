@@ -87,12 +87,10 @@ body {
     font-size: var(--tamanho-texto);
 }
 
-
 .apresentacao__conteudo__texto a{
     text-decoration: none;
     color: var(--cor-destaque);
 }
-
 
 .apresentacao__links {
     font-size: var(--tamanho-texto-2);
@@ -155,6 +153,15 @@ body {
 }
 
 .creditos__link:hover {
+    color: var(--cor-texto);
+}
+
+.link__padrao {
+    text-decoration: none;
+    color: var(--cor-destaque);
+}
+
+.link__padrao:hover {
     color: var(--cor-texto);
 }
 
