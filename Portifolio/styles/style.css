@@ -42,7 +42,7 @@ body {
 
 .cabecalho__menu__link {
     font-family: 'Courier Prime', monospace;
-    font-size: var(--tamanho-texto);
+    font-size: var(--tamanho-texto-2);
     font-weight: bold;
     color: var(--cor-link-fundo-claro);
     text-decoration: none;
@@ -133,7 +133,7 @@ body {
     font-family: 'Courier Prime', monospace;
     color: var(--cor-texto);
     padding: 2%;
-    font-size: var(--tamanho-texto);
+    font-size: var(--tamanho-texto-2);
     font-weight: bold;
     gap: 1.5rem;
     
@@ -144,7 +144,7 @@ body {
     background-color: var(--cor-destaque);
     border-radius: 100px;
     padding: 2%;
-    width: 75rem;
+    width: 55rem;
 }
 
 .creditos__link {
@@ -168,7 +168,7 @@ body {
 @media (max-width: 920px) {
 
     .cabecalho {
-        padding: 10%;
+        padding: 8%;
     }
 
     .cabecalho__menu {
