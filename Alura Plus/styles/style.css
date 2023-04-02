@@ -1,0 +1,17 @@
+@import url('');
+
+:root {
+    --cor-fundo: #000000;
+    --cor-texto: #f6f6f6;
+    --cor-destaque: #7AA874;
+    --cor-hover-botao: #1e281c;
+    --cor-link-fundo-claro: #3c5138;
+    --tamanho-titulo: 2rem;
+    --tamanho-texto: 1rem;
+    --tamanho-texto-2: 0.7rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
