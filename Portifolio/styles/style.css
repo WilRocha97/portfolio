@@ -166,11 +166,6 @@ body {
 }
 
 @media (max-width: 920px) {
-    :root {
-        --tamanho-titulo: 2.5rem;
-        --tamanho-texto: 1.5rem;
-        --tamanho-texto-2: 1rem
-    }
 
     .cabecalho {
         padding: 10%;
