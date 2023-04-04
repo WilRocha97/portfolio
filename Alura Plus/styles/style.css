@@ -1,11 +1,10 @@
 @import url('');
 
 :root {
-    --cor-fundo: #000000;
-    --cor-texto: #f6f6f6;
-    --cor-destaque: #7AA874;
-    --cor-hover-botao: #1e281c;
-    --cor-link-fundo-claro: #3c5138;
+    --cor-fundo: #00030C;
+    --cor-texto: #FFFFFF;
+    --cor-cinza-claro: #C0C0C0;
+    --cor-botao-azul: #167bf7;
     --tamanho-titulo: 2rem;
     --tamanho-texto: 1rem;
     --tamanho-texto-2: 0.7rem;
@@ -14,4 +13,19 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+.principal { 
+    background-image: url("/Alura Plus/assets/Background.png"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
 }
