@@ -8,7 +8,7 @@
     --cor-link-fundo-claro: #3c5138;
     --tamanho-titulo: 2rem;
     --tamanho-texto: 1rem;
-    --tamanho-texto-2: 0.7rem;
+    --tamanho-texto-2: 0.8rem;
     --transicao-link: 0.3s
 }
 
@@ -43,7 +43,7 @@ body {
 
 .cabecalho__menu__link {
     font-family: 'Courier Prime', monospace;
-    font-size: var(--tamanho-texto-2);
+    font-size: var(--tamanho-texto);
     font-weight: bold;
     color: var(--cor-link-fundo-claro);
     text-decoration: none;
@@ -95,7 +95,7 @@ body {
 }
 
 .apresentacao__links {
-    font-size: var(--tamanho-texto-2);
+    font-size: var(--tamanho-texto);
     display: flex;
     flex-direction: column;
     align-items: center;
