@@ -3,12 +3,13 @@
 :root {
     --cor-fundo: #000000;
     --cor-texto: #f6f6f6;
-    --cor-destaque: #7AA874;
+    --cor-destaque: #678b60;
     --cor-hover-botao: #1e281c;
     --cor-link-fundo-claro: #3c5138;
     --tamanho-titulo: 2rem;
     --tamanho-texto: 1rem;
     --tamanho-texto-2: 0.7rem;
+    --transicao-link: 0.3s
 }
 
 * {
@@ -46,6 +47,7 @@ body {
     font-weight: bold;
     color: var(--cor-link-fundo-claro);
     text-decoration: none;
+    transition: var(--transicao-link);
 }
 
 .cabecalho__menu__link:hover {
@@ -111,6 +113,7 @@ body {
 
 .apresentacao__links__redes {
     border: 3px solid var(--cor-destaque);
+    background-color: var(--cor-fundo);
     color: var(--cor-texto);
     border-radius: 10px;
     font-size: var(--tamanho-texto);
@@ -121,10 +124,11 @@ body {
     gap: 0.3rem;
     width: 90%;
     padding: 15px 0;
+    transition: background var(--transicao-link);
 }
 
-.apresentacao__links__link:hover {
-    background-color: var(--cor-hover-botao);
+.apresentacao__links__redes:hover {
+    background-color: var(--cor-destaque);
 }
 
 .rodape {
@@ -150,6 +154,7 @@ body {
 .creditos__link {
     text-decoration: none;
     color: var(--cor-link-fundo-claro);
+    transition: var(--transicao-link);
 }
 
 .creditos__link:hover {
@@ -159,10 +164,12 @@ body {
 .link__padrao {
     text-decoration: none;
     color: var(--cor-destaque);
+    transition: var(--transicao-link);
 }
 
 .link__padrao:hover {
     color: var(--cor-texto);
+    font-weight: bold;
 }
 
 @media (max-width: 920px) {
