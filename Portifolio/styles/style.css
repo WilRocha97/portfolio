@@ -160,6 +160,7 @@ body {
 }
 
 .rodape__conteudo {
+    
     text-align: center;
     background-color: var(--cor-destaque);
     border-radius: 100px;
@@ -198,6 +199,10 @@ body {
         padding: 5%;
     }
 
+    .cabecalho__menu__link {
+        font-size: 0.8rem;
+    }
+
     .apresentacao {
         padding: 5%;
         flex-direction: column-reverse;
@@ -211,5 +216,10 @@ body {
     .apresentacao__foto {
         width: 35%;
         border-radius: 100px;
+    }
+
+    .rodape {
+        font-size: 0.5rem;
+        padding: 5%;
     }
 }
