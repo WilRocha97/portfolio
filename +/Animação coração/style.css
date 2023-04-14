@@ -1,0 +1,19 @@
+#coracao {
+    display: none;
+  }
+  
+  #coracao:checked + .icone > svg {
+    animation: preencher;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes preencher {
+    0% {
+      fill: transparent;
+    }
+    100% {
+      fill: #d73b3b;
+    }
+  }
+  
