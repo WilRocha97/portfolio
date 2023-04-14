@@ -169,7 +169,6 @@ body {
     color: var(--cor-texto);
     padding: 2%;
     font-size: var(--tamanho-texto-2);
-    
     gap: 1.5rem;
     
 }
