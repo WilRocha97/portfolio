@@ -19,25 +19,38 @@
 }
 
 body {
-    /*height: 100vh;*/
-    box-sizing: border-box;
-    overflow: auto;
-    background: linear-gradient(315deg, #222f21 50%, #000000 50%);
-    animation: gradient 20s ease infinite;
-    background-size: 200% 200%;
-    background-attachment: fixed;
+    background-color: #000000;
+    font-family: 'Courier Prime', monospace;
     color: var(--cor-texto);
 }
 
-@keyframes gradient {
+.bg {
+    animation:slide 20s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg,  #1a241a 50%, #080b08 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:22s;
+}
+
+.bg3 {
+    animation-duration:24s;
+}
+
+@keyframes slide {
     0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
+    transform:translateX(-25%);
     }
     100% {
-        background-position: 0% 0%;
+    transform:translateX(25%);
     }
 }
 
@@ -62,7 +75,7 @@ body {
 }
 
 .cabecalho__menu__link {
-    font-family: 'Courier Prime', monospace;
+    
     font-size: var(--tamanho-texto);
     font-weight: bold;
     color: var(--cor-link-fundo-claro);
@@ -88,7 +101,6 @@ body {
 
 .apresentacao {
     padding: 10% 20%;
-    font-family: 'Courier Prime', monospace;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -154,7 +166,6 @@ body {
 .rodape {
     display: flex;
     justify-content: center;
-    font-family: 'Courier Prime', monospace;
     color: var(--cor-texto);
     padding: 2%;
     font-size: var(--tamanho-texto-2);
