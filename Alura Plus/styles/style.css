@@ -153,3 +153,38 @@ body {
     color: var(--cinza-secundario);
     font-size: 14px;
 }
+
+@media (max-width: 920px) {
+    body {
+        margin: 0;
+	    padding: 0;
+	    border: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    
+    .principal { 
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        grid-template-columns: none;
+        margin: 0;
+	    padding: 0;
+	    border: 0;
+    }
+
+    .dispositivos__lista {
+        flex-direction: column;
+    }
+
+    .rodape__lista {
+        flex-wrap: wrap;
+    }
+}
