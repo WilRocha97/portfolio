@@ -26,7 +26,7 @@ body {
 }
 
 .principal { 
-    background-image: url("/Alura Plus/assets/Background.png"); 
+    background-image: url("../assets/Background.png"); 
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
