@@ -67,10 +67,8 @@ div.swiper-pagination {
         width: 100%;
     }
 
-
     .swiper-button-prev,
     .swiper-button-next {
         display: none;
     }
-
 }
