@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url("carrossel.css");
 
 :root {
     --cor-vidro: #f6f6f60e;
@@ -13,10 +14,6 @@
     --transicao-link: 0.3s
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     background-color: #000000;
@@ -55,10 +52,10 @@ body {
 }
 
 .cabecalho {
+    z-index: 2;
     padding: 1%;
     position: fixed;
     width: 97%;
-    top: 2%;
 }
 
 .cabecalho__menu {
@@ -107,7 +104,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 80px
+    gap: 80px;
 }
 
 .apresentacao__conteudo {
@@ -133,6 +130,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 0.6rem;
+    width: 15rem;
 }
 
 .apresentacao__links_subtitulo{
@@ -205,6 +203,10 @@ body {
 
 @media (max-width: 920px) {
 
+    .cabecalho {
+        padding: 2%;
+    }
+
     .container__menu {
         width: 80%;
         padding: 3%;
@@ -215,8 +217,7 @@ body {
     }
 
     .apresentacao {
-        margin-top: 4rem;
-        padding: 5%;
+        padding: 30% 5%;
         flex-direction: column-reverse;
         align-items: center;
     }
