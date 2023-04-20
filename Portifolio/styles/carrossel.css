@@ -37,9 +37,20 @@ div.swiper-button-next {
    color: var(--cor-destaque);
 }
 
+.swiper-pagination-bullet {
+    opacity: 1;
+    border: #60865e solid 2px;
+    background-color: transparent;
+    transition: background 0.3s;
+}
 
-div.swiper-pagination {
-    color: var(--cor-destaque);
+.swiper-pagination-bullet-active {
+    background-color: var(--cor-destaque);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
 }
 
 @media (max-width: 920px) {
@@ -67,8 +78,5 @@ div.swiper-pagination {
         width: 100%;
     }
 
-    .swiper-button-prev,
-    .swiper-button-next {
-        display: none;
-    }
+    
 }
