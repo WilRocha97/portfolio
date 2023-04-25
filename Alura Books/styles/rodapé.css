@@ -35,6 +35,11 @@ hr {
         margin-left: 0.6em;
         color: var(--cinza);
         text-decoration: none;
+        transition: color var(--transição);
+    }
+
+    .lista-rodapé__link:hover {
+        color: var(--laranja);
     }
 
     .lista-rodapé-__titulo {
@@ -46,6 +51,16 @@ hr {
 
     .dev {
         margin: 5em 7em 1em 7em;
+    }
+
+    .dev__link {
+        text-decoration: none;
+        transition: color var(--transição);
+        color: var(--preto);
+    }
+
+    .dev__link:hover {
+        color: var(--laranja);
     }
 }
 

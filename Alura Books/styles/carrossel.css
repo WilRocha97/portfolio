@@ -109,6 +109,11 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+    transition: background var(--transição);
+}
+
+.botões__ancora:hover {
+    background-color: var(--azul);
 }
 
 @media screen and (min-width: 1024px) {
