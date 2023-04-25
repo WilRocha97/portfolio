@@ -7,15 +7,20 @@
     display: inline-block;
 }
 
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
+    background-image: url("../img/Menu Aberto.svg");
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--azul-degrade);
+}
+
 .cabeçalho {
-    z-index: 2;
-    position: fixed;
-    width: 100%;
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    position: relative;
 }
 
 .container {
@@ -38,6 +43,10 @@
     display: block;
 }
 
+.container__botao {
+    display: none;
+}
+
 .lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
@@ -57,6 +66,98 @@
     text-transform: uppercase;
 }
 
-.container__botao {
+.container__titulo,
+.opções,
+.container__texto {
     display: none;
+}
+
+.lista-menu__item:hover {
+    background: var(--azul-degrade);
+}
+
+.lista-menu__item:hover>.lista-menu__link {
+    -webkit-text-fill-color: var(--branco);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabeçalho__menu-hamburguer{
+        display: none;
+    }
+
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+
+    .container__titulo {
+        display: block;
+        font-weight: 400;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
+    .opções {
+        display: flex;
+    }
+
+    .opções__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opções__link {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem--transparente {
+        display: none;
+    }
+
+    .opções__botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opções__botao {
+        display: none;
+    }
+
+    .opções__botao:checked~.opções__rotulo>.opções__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opções__item {
+        padding: 2em 1em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__titulo {
+        margin-right: 2em;
+    }
+
+    .container__texto {
+        display: block;
+    }
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabeçalho {
+        padding: 2em;
+    }
+
+    .opções {
+        margin-right: auto;
+    }
 }
