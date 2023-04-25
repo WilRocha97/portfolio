@@ -11,6 +11,20 @@ hr {
     display: none;
 }
 
+.dev {
+    margin: 5em 7em 1em 7em;
+}
+
+.dev__link {
+    text-decoration: none;
+    transition: color var(--transição);
+    color: var(--preto);
+}
+
+.dev__link:hover {
+    color: var(--laranja);
+}
+
 @media screen and (min-width: 1024px) {
     .lista-rodapé {
         display: block;
@@ -47,20 +61,6 @@ hr {
         margin: 0.9em;
         color: var(--cinza-claro);
         text-transform: uppercase;
-    }
-
-    .dev {
-        margin: 5em 7em 1em 7em;
-    }
-
-    .dev__link {
-        text-decoration: none;
-        transition: color var(--transição);
-        color: var(--preto);
-    }
-
-    .dev__link:hover {
-        color: var(--laranja);
     }
 }
 
