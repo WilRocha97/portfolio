@@ -27,6 +27,12 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+    transition: background var(--transição);
+}
+
+.tópicos__link:hover {
+    background-color: var(--branco);
+    color: var(--laranja);
 }
 
 @media screen and (min-width: 1024px) {
