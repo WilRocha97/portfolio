@@ -25,7 +25,6 @@
 }
 
 .swiper-slide {
-
     padding-bottom: 100%;
     color: var(--branco);
     text-decoration: none;
@@ -51,6 +50,11 @@ div.swiper-button-next {
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
+}
+
+.imagem-slide {
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 920px) {
