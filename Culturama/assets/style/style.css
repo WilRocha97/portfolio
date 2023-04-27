@@ -360,6 +360,17 @@ img:hover {
     height: 60px;
 }
 
+.dev__link {
+    text-decoration: none;
+    color: var(--verde);
+    transition: color 0.5s;
+}
+
+.dev__link:hover {
+    color: var(--laranja);
+    font-weight: 600;
+}
+
 @media(min-width: 720px) {
 
     /* Header */
