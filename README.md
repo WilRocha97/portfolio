@@ -1,5 +1,5 @@
-# Desenvolvimento-WEB
-Repositório dos meus códigos para a WEB
+# Meu site
+Repositório dos site
 
 ## Ferramentas utilizadas:
 * HTML
