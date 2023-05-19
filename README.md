@@ -1,5 +1,5 @@
 # Meu site
-Repositório dos site
+Repositório do meu site
 
 ## Ferramentas utilizadas:
 * HTML
