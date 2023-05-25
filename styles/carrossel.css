@@ -47,13 +47,10 @@ div.swiper-button-next {
     background-color: var(--cor-destaque);
 }
 
-
-
 .imagem-slide {
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
-
 
 @media (max-width: 920px) {
     .carrossel {
@@ -84,6 +81,4 @@ div.swiper-button-next {
     .swiper-button-next {
         display: none;
     }
-
-    
 }
