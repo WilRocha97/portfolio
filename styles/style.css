@@ -101,18 +101,18 @@ body {
 }
 
 .apresentacao {
-    padding: 10% 30% 0 30%;
+    padding: 10% 20% 0 20%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     gap: 80px;
 }
 
 .apresentacao__2 {
-    padding: 10% 30% 5% 30%;
+    padding: 10% 25% 5% 25%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     gap: 80px;
 }
 
@@ -139,7 +139,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 0.6rem;
-    width: 15rem;
+    width: 18rem;
 }
 
 .apresentacao__links_subtitulo{
@@ -243,7 +243,7 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .apresentacao__foto {

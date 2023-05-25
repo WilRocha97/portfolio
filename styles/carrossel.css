@@ -47,10 +47,7 @@ div.swiper-button-next {
     background-color: var(--cor-destaque);
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-    display: none;
-}
+
 
 .imagem-slide {
     border-radius: 15px;
@@ -81,6 +78,11 @@ div.swiper-button-next {
     .swiper-wrapper img{
         margin: 4% 0;
         width: 100%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
     }
 
     
