@@ -18,7 +18,7 @@
     width: 100%;
 }
 
-.swiper-wrapper img{
+.swiper-slide img{
     margin: 4% 0 4% 10%;
     width: 80%;
     display: flex;
@@ -64,11 +64,10 @@ div.swiper-button-next {
     }
 
     .swiper-slide {
-        padding-bottom: 20%;
-        text-align: center;
+        padding-bottom: 14%;
     }
     
-    .swiper-wrapper img{
+    .swiper-slide img{
         margin: 4% 0;
         width: 100%;
     }
