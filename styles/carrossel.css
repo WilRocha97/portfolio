@@ -1,7 +1,8 @@
 .carrossel {
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
+    justify-content: center;
+    width: 70%;
     
 }
 
@@ -14,18 +15,18 @@
 }
 
 .swiper {
-    width: 30rem;
-    height: 17rem;
+    width: 100%;
 }
 
 .swiper-wrapper img{
-    margin: 3% 10%;
-    display: flex;
+    margin: 4% 0 4% 10%;
     width: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 .swiper-slide {
-    padding-bottom: 100%;
+    padding-bottom: 7%;
     color: var(--branco);
     text-decoration: none;
     text-align: center;
@@ -58,13 +59,8 @@ div.swiper-button-next {
         width: 100%;
     }
 
-    .carrossel__titulo {
-        text-align: center;
-    }
-
     .swiper {
         width: 100%;
-        height: 100%;
     }
 
     .swiper-slide {

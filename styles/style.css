@@ -2,12 +2,11 @@
 @import url("carrossel.css");
 
 :root {
-    --cor-vidro: #f6f6f60e;
+    --cor-vidro: #ffffff0b;
     --cor-fundo: #000000;
-    --cor-texto: #f6f6f6;
-    --cor-texto-2: #000000;
-    --cor-destaque: #60865e;
-    --cor-link-fundo-claro: #6e996c;
+    --cor-texto: #ffffff;
+    --cor-destaque: #364a35;
+    --cor-link-fundo-claro: #547353;
     --tamanho-titulo: 2rem;
     --tamanho-texto: 1rem;
     --tamanho-texto-2: 0.8rem;
@@ -109,7 +108,7 @@ body {
 }
 
 .apresentacao__2 {
-    padding: 10% 25% 5% 25%;
+    padding: 10% 15% 5% 15%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -139,7 +138,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 0.6rem;
-    width: 18rem;
+    width: 30%;
 }
 
 .apresentacao__links_subtitulo{
@@ -161,7 +160,7 @@ body {
     text-decoration: none;
     text-align: center;
     gap: 0.5rem;
-    width: 100%;
+    width: 80%;
     padding: 21.5px 0;
     transition: background var(--transicao-link);
 }
@@ -248,6 +247,10 @@ body {
     .apresentacao__foto {
         width: 35%;
         border-radius: 100px;
+    }
+    
+    .apresentacao__links {
+        width: 100%;
     }
 
     .rodape {
