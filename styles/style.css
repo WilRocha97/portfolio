@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap');
 @import url("carrossel.css");
 
 :root {
@@ -7,16 +7,16 @@
     --cor-texto: #ffffff;
     --cor-destaque: #364a35;
     --cor-link-fundo-claro: #547353;
-    --tamanho-titulo: 2rem;
-    --tamanho-texto: 1rem;
-    --tamanho-texto-2: 0.8rem;
+    --tamanho-titulo: 2.4rem;
+    --tamanho-texto: 1.4rem;
+    --tamanho-texto-2: 1rem;
     --transicao-link: 0.3s
 }
 
 
 body {
     background-color: #000000;
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Barlow Semi Condensed', monospace;
     color: var(--cor-texto);
 }
 
@@ -156,7 +156,7 @@ body {
     justify-content: center;
     color: var(--cor-texto);
     border-radius: 100px;
-    font-size: var(--tamanho-texto);
+    font-size: var(--tamanho-texto-2);
     font-weight: bold;
     text-decoration: none;
     text-align: center;
