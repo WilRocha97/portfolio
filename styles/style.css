@@ -2,7 +2,7 @@
 @import url("carrossel.css");
 
 :root {
-    --cor-vidro: #ffffff0b;
+    --cor-vidro: #ffffff12;
     --cor-fundo: #000000;
     --cor-texto: #ffffff;
     --cor-destaque: #364a35;
@@ -142,7 +142,8 @@ body {
 }
 
 .apresentacao__links_subtitulo{
-    font-weight: 18px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .apresentacao__links__redes {
