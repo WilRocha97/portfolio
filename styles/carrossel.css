@@ -8,7 +8,7 @@
 
 .carrossel__titulo {
     text-align: center;
-    color: var(--cor-destaque);
+    color: var(--cor-texto);
     background-color: var(--branco);
     font-size: 18px;
     font-weight: 700;
