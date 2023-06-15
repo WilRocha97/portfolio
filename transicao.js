@@ -2,6 +2,11 @@ const link = document.getElementsByClassName("cabecalho__menu__link");
 const links = Array.from(link);
 const conteudo = document.getElementById('apresentacaoConteudo');
 
+setTimeout(()=> {
+    document.body.classList.add('fadeIn')
+}, 500);
+
+
 links.forEach((element) => {
 
     element.addEventListener('click', (e)=> {
