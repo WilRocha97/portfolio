@@ -97,12 +97,14 @@ body {
 }
 
 .titulo-destaque {
+    margin-top: 20%;
+    margin-bottom: 0;
     color: var(--cor-destaque);
     font-size: var(--tamanho-titulo);
-    margin-top: 10%;
 }
 
 .apresentacao__foto {
+    margin-top: 20%;
     width: 30%;
     border-radius: 50px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -113,7 +115,6 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 80px;
 }
 
 .apresentacao__2 {
@@ -129,11 +130,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.5rem;
     width: 50%;
 }
 
 .apresentacao__conteudo__titulo {
+    margin-top: 20%;
+    margin-bottom: 0;
     font-size: var(--tamanho-titulo);
 }
 
@@ -256,7 +258,8 @@ body {
     }
 
     .apresentacao__foto {
-        width: 35%;
+        margin-top: 0;
+        width: 50%;
         border-radius: 100px;
     }
     
