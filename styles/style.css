@@ -13,8 +13,9 @@
     --transicao-link: 0.3s
 }
 
-
 body {
+    opacity: 0;
+    transition: opacity 0.5s;
     background-color: #000000;
     font-family: 'Barlow Semi Condensed', monospace;
     color: var(--cor-texto);
@@ -48,6 +49,14 @@ body {
     100% {
     transform:translateX(25%);
     }
+}
+
+.fadeOut {
+    opacity: 0;
+}
+  
+.fadeIn {
+    opacity: 1;
 }
 
 .cabecalho {
@@ -116,6 +125,7 @@ body {
 }
 
 .apresentacao__conteudo {
+    transition: opacity 0.2s;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
