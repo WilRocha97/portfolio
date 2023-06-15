@@ -12,7 +12,6 @@ links.forEach((element) => {
     element.addEventListener('click', (e)=> {
         e.preventDefault();
         const pagina = e.srcElement.id
-        console.log(pagina)
         conteudo.classList.remove('fadeIn');
         conteudo.classList.add('fadeOut');
 

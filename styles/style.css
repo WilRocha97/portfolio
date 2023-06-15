@@ -2,11 +2,11 @@
 @import url("carrossel.css");
 
 :root {
-    --cor-vidro: #ffffff12;
-    --cor-fundo: #000000;
-    --cor-texto: #ffffff;
-    --cor-destaque: #364a35;
-    --cor-link-fundo-claro: #547353;
+    --cor-vidro: #4444442c;
+    --cor-texto-dark: #000000;
+    --cor-texto-light: #ffffff;
+    --cor-destaque: #ff004c;
+    --cor-link-fundo-claro: #ff004c;
     --tamanho-titulo: 2.4rem;
     --tamanho-texto: 1.4rem;
     --tamanho-texto-2: 1rem;
@@ -16,14 +16,27 @@
 body {
     opacity: 0;
     transition: opacity 0.5s;
-    background-color: #000000;
     font-family: 'Barlow Semi Condensed', monospace;
-    color: var(--cor-texto);
+}
+
+#toggleDarkMode { 
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: #000000;
+    color: var(--cor-texto-light);
+}
+
+.light {
+    background-color: #ffffff;
+    color: var(--cor-texto-dark);
 }
 
 .bg {
     animation:slide 20s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg,  #1a241a 50%, #080b08 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
@@ -31,6 +44,14 @@ body {
     right:-50%;
     top:0;
     z-index:-1;
+}
+
+.bgDark {
+    background-image: linear-gradient(-60deg,  #2e2e2e 50%, #111111 50%);
+}
+
+.bgLight {
+    background-image: linear-gradient(-60deg,  #dbdbdb 50%, #f1f1f1 50%);
 }
 
 .bg2 {
@@ -76,7 +97,7 @@ body {
     background: var(--cor-vidro);
     border-radius: 100px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     padding: 1.5% 5%;
     display: flex;
     flex-direction: row;
@@ -97,21 +118,21 @@ body {
 }
 
 .titulo-destaque {
-    margin-top: 20%;
-    margin-bottom: 0;
+    margin-top: 5%;
+    margin-bottom: 2%;
     color: var(--cor-destaque);
     font-size: var(--tamanho-titulo);
 }
 
 .apresentacao__foto {
-    margin-top: 10%;
+    margin-top: 5%;
     width: 30%;
     border-radius: 50px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .apresentacao {
-    padding: 10% 20% 0 20%;
+    padding: 10% 20% 5% 20%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -135,8 +156,8 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    margin-top: 20%;
-    margin-bottom: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: var(--tamanho-titulo);
 }
 
@@ -163,7 +184,7 @@ body {
     background: var(--cor-vidro);
     border-radius: 100px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 
     display: flex;
     justify-content: center;
@@ -200,7 +221,7 @@ body {
     background: var(--cor-vidro);
     border-radius: 100px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     text-align: center;
     padding: 2%;
     width: 55rem;
@@ -229,7 +250,7 @@ body {
     .container__menu {
         width: 80%;
         height: 2rem;
-        padding: 3%;
+        padding: 3% 6%;
     }
 
     .cabecalho__menu__link {
@@ -238,7 +259,7 @@ body {
     }
 
     .apresentacao {
-        padding: 35% 10% 0 10%;
+        padding: 35% 10% 20% 10%;
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -258,6 +279,11 @@ body {
         align-items: flex-start;
     }
 
+    .titulo-destaque {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+
     .apresentacao__foto {
         margin-top: 0;
         width: 50%;
@@ -269,7 +295,7 @@ body {
     }
 
     .rodape {
-        font-size: 0.5rem;
-        padding: 30% 5% 0 5%;
+        font-size: 0.54rem;
+        padding: 20% 5% 5% 5%;
     }
 }
