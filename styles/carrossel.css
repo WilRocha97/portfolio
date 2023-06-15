@@ -39,7 +39,7 @@ div.swiper-button-next {
 
 .swiper-pagination-bullet {
     opacity: 1;
-    border: #60865e solid 2px;
+    border: var(--cor-destaque) solid 2px;
     background-color: transparent;
     transition: background 0.3s;
 }
