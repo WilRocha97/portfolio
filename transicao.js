@@ -32,7 +32,7 @@ links.forEach((element) => {
     function atualiza(pagina) {
 
         if (pagina === 'home') {
-            conteudo.innerHTML = `<h1 class="apresentacao__conteudo__titulo">Olá! Sou <strong class="titulo-destaque">Willian Rodrigues</strong> desenvolvedor Front-end</h1>
+            conteudo.innerHTML = `<h1 class="apresentacao__conteudo__titulo">Olá! Meu nome é <strong class="titulo-destaque">Willian Rodrigues</strong>, sou desenvolvedor Front-end</h1>
                                     <br>
                                     <ul class="apresentacao__conteudo__texto">
                                         <li>Python</li>
