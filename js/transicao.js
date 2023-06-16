@@ -2,24 +2,29 @@ const link = document.getElementsByClassName("cabecalho__menu__link");
 const links = Array.from(link);
 const conteudo = document.getElementById('apresentacaoConteudo');
 
+// adiciona um fade in ao abrir o site
 setTimeout(()=> {
     document.body.classList.add('fadeIn')
 }, 500);
 
 
+// para cada botão no cabeçalho pega o nome do botão ao clica-lo para selecionar o conteúdo certo que devera ser exibido na página
 links.forEach((element) => {
-
     element.addEventListener('click', (e)=> {
         e.preventDefault();
         const pagina = e.srcElement.id
+
+        // desaparece o conteúdo atual
         conteudo.classList.remove('fadeIn');
         conteudo.classList.add('fadeOut');
 
+        // sobe para o topo da página
         window.scrollTo({
             top: 0,
             behavior: 'smooth' // Para uma rolagem suave, adicione essa opção
         });
 
+        // atualiza o conteúdo da página ainda invisível, aguarda 200 milesegundos e aparece o novo conteudo
         setTimeout(()=> {
             atualiza(pagina)
 
