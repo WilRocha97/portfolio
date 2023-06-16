@@ -65,7 +65,12 @@ links.forEach((element) => {
         }
 
         if (pagina === 'curriculo') {
-            conteudo.innerHTML = `<h2 class="titulo-destaque">Experiências</h2>
+            conteudo.innerHTML = `<h1 class="titulo-destaque">Idiomas</h2>
+                                    <ul class="apresentacao__conteudo__texto">
+                                        <li>Português - BR</li>
+                                        <li>English - US (Pre-advanced)</li>
+                                    </ul>
+                                    <h2 class="titulo-destaque">Experiências</h2>
                                     <ul class="apresentacao__conteudo__texto">
                                         <li>Veiga & Postal<br>(2015 - Presente)<br>Desenvolvendo scripts para automação de processos via python</li>
                                     </ul>
