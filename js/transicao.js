@@ -58,8 +58,8 @@ links.forEach((element) => {
                                         o líder do meu setor decidiu automatizar alguns processos do escritório. Então, junto com um desenvolvedor, comecei a 
                                         desenvolver processos automatizados de uma maneira mais simples, usando uma ferramenta para criar esses scripts. Conforme a 
                                         demanda foi crescendo, precisamos ampliar e tornar os scripts mais complexos. Foi nesse momento que comecei a estudar 
-                                        Python para desenvolvê-los e comecei a gostar de programação. Agora, estou estudando Front-end e amando, e este é o 
-                                        meu primeiro site!
+                                        Python para desenvolvê-los e comecei a gostar de programação. Agora, faço web scraping usando Python e comecei a estudar Front-end, este é o 
+                                        meu primeiro site feito em 2023!
                                     </p>`
             return conteudo
         }
