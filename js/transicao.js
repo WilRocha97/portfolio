@@ -51,7 +51,7 @@ links.forEach((element) => {
         if (pagina === 'sobre') {
             conteudo.innerHTML = `<h1 class="titulo-destaque">Sobre mim</h1>
                                     <p class="apresentacao__conteudo__texto">Meu nome completo é Willian Rocha Barquilia Rodrigues, 
-                                        tenho 26 anos e sou natural de Valinhos - SP, nasci e moro aqui até hoje!</p>
+                                        tenho 27 anos e sou natural de Valinhos - SP, nasci e moro aqui até hoje!</p>
                                     <p class="apresentacao__conteudo__texto">Antes de começar o meu primeiro emprego, tentei fazer uma graduação em jogos digitais. 
                                         Sempre fui apaixonado por videogames e fico fascinado em como eles fazem voçê se sentir parte de mundos e histórias 
                                         incríveis. Infelizmente, não deu certo mas acabei conseguindo um emprego como auxiliar de escritório. Algum tempo depois, 
