@@ -23,54 +23,63 @@ body {
     border: none;
     background: none;
     cursor: pointer;
+    transition: var(--transicao-link);
+}
+#toggleDarkMode img{
+    width: 14px;
+    height: auto;
+}
+#toggleDarkMode:hover {
+    scale: 1.2;
 }
 
 .dark {
-    background-color: #000000;
+    background-color: #0d1a18;
+    transition: background-color 0.5s;
     color: var(--cor-texto-light);
 }
-
 .light {
-    background-color: #ffffff;
+    background-color: #e8f8f6;
+    transition: background-color 0.5s;
     color: var(--cor-texto-dark);
 }
 
-.bg {
-    animation:slide 20s ease-in-out infinite alternate;
-    bottom:0;
-    left:-50%;
-    opacity:.5;
-    position:fixed;
-    right:-50%;
-    top:0;
-    z-index:-1;
-}
-
-.bgDark {
-    background-image: linear-gradient(-60deg,  #2e2e2e 50%, #111111 50%);
-}
-
-.bgLight {
-    background-image: linear-gradient(-60deg,  #dbdbdb 50%, #f1f1f1 50%);
-}
-
-.bg2 {
-    animation-direction:alternate-reverse;
-    animation-duration:22s;
-}
-
-.bg3 {
-    animation-duration:24s;
-}
-
-@keyframes slide {
+@keyframes rotate {
     0% {
-    transform:translateX(-25%);
+      transform: rotate(0deg);
     }
     100% {
-    transform:translateX(25%);
+      transform: rotate(360deg);
     }
+  }
+  
+.gradient {
+    inset: 0;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    overflow: hidden;
+    position:fixed;
+    z-index: -1;
+    --size: auto;
+    --speed: 30s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+
+    width: var(--size);
+    height: var(--size);
+    filter: blur(700px);
+    animation: rotate var(--speed) var(--easing) alternate infinite;
 }
+.gradientLight {
+    background: linear-gradient(50deg, #b8e2fd, white, #e8d5fa);
+}
+.gradientDark {
+    background: linear-gradient(50deg, #004370, black, #38006d);
+}
+* {
+    transition: all 0.5s ease-out;
+  }
+
 
 .fadeOut {
     opacity: 0;
