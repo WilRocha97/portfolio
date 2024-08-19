@@ -27,5 +27,5 @@ const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matc
 // Aplica o tema de acordo com a preferência do usuário
 if (!prefersDarkScheme) {
     corpo.classList.toggle('light');
-    fundo.classList.toggle('bgLight');
+    fundo.classList.toggle('gradientLight');
 }
