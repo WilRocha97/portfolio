@@ -6,6 +6,8 @@ const imagem = botao.querySelector('img');
 botao.addEventListener('click', (e)=> {
     corpo.classList.toggle('light');
     fundo.classList.toggle('gradientLight');
+    corpo.classList.toggle('dark');
+    fundo.classList.toggle('gradientDark');
 
     if (corpo.classList.contains('light')) {
         // Atualiza o atributo src da imagem
@@ -28,4 +30,6 @@ const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matc
 if (!prefersDarkScheme) {
     corpo.classList.toggle('light');
     fundo.classList.toggle('gradientLight');
+    corpo.classList.toggle('dark');
+    fundo.classList.toggle('gradientDark');
 }

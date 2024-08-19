@@ -62,7 +62,7 @@ body {
     position:fixed;
     z-index: -1;
     --size: auto;
-    --speed: 30s;
+    --speed: 25s;
     --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
 
     width: var(--size);
@@ -71,10 +71,10 @@ body {
     animation: rotate var(--speed) var(--easing) alternate infinite;
 }
 .gradientLight {
-    background: linear-gradient(50deg, #b8e2fd, white, #e8d5fa);
+    background: linear-gradient(50deg, #abdfff, white, #bf7aff);
 }
 .gradientDark {
-    background: linear-gradient(50deg, #004370, black, #38006d);
+    background: linear-gradient(50deg, #004d80, black, #4b0092);
 }
 * {
     transition: all 0.5s ease-out;
